@@ -1,4 +1,8 @@
 //To do: once green dot dies, it doesn't seem to switch to a better dot
+/*
+It could be that the dot that reaches the goal takes more steps or something, so the best dot isn't set to that.
+
+*/
 // Tutorial: https://www.youtube.com/watch?v=BOZfhUcNiqk
 
 Population population;

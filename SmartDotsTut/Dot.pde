@@ -19,12 +19,14 @@ class Dot {
     if (isBest) { // showing the champion dot to stand out
       fill(0, 255, 0);
       radius=4; // make the best dot bigger
+    } else if (dead) {
+      fill(#B96509);
     } else {
       fill(0);
     }
     ellipse (pos.x, pos.y, radius*2, radius*2);
   }
-// ===================================== MOVE =======================================================
+  // ===================================== MOVE =======================================================
   void move() {
     if (brain.directions.length>brain.step) {
       acc = brain.directions[brain.step]; // set dot's current acceleration to the vector in the brain array
