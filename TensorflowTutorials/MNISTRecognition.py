@@ -1,5 +1,8 @@
 #ABHINAV AGRAHARI
 #This file: we make our own tensorflow model using tensors, and tensorgraphs
+#TO DO update this code with firstTut.py beofore input_data is removed
+
+
 #https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-recognize-handwritten-digits-with-tensorflow
 import tensorflow as tf
 #for image manipulation
@@ -11,7 +14,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True) # y labels are oh-encoded
 #one-hot encoding means the binary vector of [0, 0, 0, 1, 0, 0, 0, 0, 0, 0] represents the number 3
 n_train = mnist.train.num_examples # 55,000
-n_validation = mnist.validation.num_examples # 5000
+#n_validation = mnist.validation.num_examples # 5000
 n_test = mnist.test.num_examples # 10,000
 
 #Neural Network now,
@@ -79,16 +82,18 @@ for i in range(n_iterations):
 
 test_accuracy = sess.run(accuracy, feed_dict={X: mnist.test.images, Y: mnist.test.labels, keep_prob:1.0})
 print("\nAccuracy on test set:", test_accuracy)
+imgName="all";
+while imgName != "none":
+    imgName = input("Enter name of file to test:  ");
+    img2Fix = Image.open("customHandwrittenImages/"+imgName).convert('L');
+    img2Fix = img2Fix.resize((28,28))
+    img2Array = np.invert(img2Fix)
+    img = img2Array.ravel()
 
-img2Fix = Image.open("test_img.png").convert('L');
-img2Fix = img2Fix.resize((28,28))
-img2Array = np.invert(img2Fix)
-img = img2Array.ravel()
-
-#img = np.invert(Image.open("test_img.png").convert('L')).ravel()
-#open function of Image lib loas image as 4D array: RGB, and alpha
-#we convert to grayscale with L
-#store this as a numpy array and invert bc .convert(L) makes black 0 and white 255. But mnist has it oppisite
-#ravel() flattens the array (unstacks)
-prediction = sess.run(tf.argmax(output_layer,1), feed_dict={X: [img]})
-print ("Prediction for test image:", np.squeeze(prediction)) #np.squeeze converts [0, 0, 0, 1, 0, 0, 0, 0, 0, 0] to the number 3
+    #img = np.invert(Image.open("test_img.png").convert('L')).ravel()
+    #open function of Image lib loas image as 4D array: RGB, and alpha
+    #we convert to grayscale with L
+    #store this as a numpy array and invert bc .convert(L) makes black 0 and white 255. But mnist has it oppisite
+    #ravel() flattens the array (unstacks)
+    prediction = sess.run(tf.argmax(output_layer,1), feed_dict={X: [img]})
+    print ("Prediction for test image:", np.squeeze(prediction)) #np.squeeze converts [0, 0, 0, 1, 0, 0, 0, 0, 0, 0] to the number 3
