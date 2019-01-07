@@ -1,0 +1,4 @@
+tensorflow
+image
+virtualenv
+matplotlib

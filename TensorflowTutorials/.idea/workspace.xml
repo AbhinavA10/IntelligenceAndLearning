@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e3a064-1549-446c-b238-949be14f0515" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MNISTRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNISTRecognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_img.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_mediumTutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNISTRecognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicClassification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifyHandWrittenDigits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstTut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libRequirements.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,25 +22,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MNISTRecognition.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_personalTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstTut.py">
+        <entry file="file://$PROJECT_DIR$/02_basicClassification_fashionMNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-26">
+              <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+              <folding>
+                <element signature="e#377#400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_mediumTutorial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_MNISTRecognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -46,6 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/classifyHandWrittenDigits.py" />
         <option value="$PROJECT_DIR$/MNISTRecognition.py" />
+        <option value="$PROJECT_DIR$/04_MNISTRecognition.py" />
+        <option value="$PROJECT_DIR$/05_mediumTutorial.py" />
+        <option value="$PROJECT_DIR$/06_mediumTutorial.py" />
       </list>
     </option>
   </component>
@@ -96,6 +139,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="06_mediumTutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TensorflowTutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_mediumTutorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.06_mediumTutorial" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -112,18 +183,18 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33486944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33486944" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -146,6 +217,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MNISTRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/firstTut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -153,10 +231,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNISTRecognition.py">
+    <entry file="file://$PROJECT_DIR$/04_MNISTRecognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_personalTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_basicClassification_fashionMNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding>
+            <element signature="e#377#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_mediumTutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
