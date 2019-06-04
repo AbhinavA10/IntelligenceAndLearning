@@ -1,0 +1,10 @@
+numpy
+scipy
+tensorflow
+keras
+ipython
+jupyter
+six
+wheel
+matplotlib
+opencv-contrib-python

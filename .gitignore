@@ -1,5 +1,7 @@
 tf-venv/
+venv/
 TensorflowTutorials/MNIST-data/
-Notes/.ipynb_checkpoints
+TensorflowTutorials/MNIST_data/
+.ipynb_checkpoints/
 SklearnTutorials/mnist_test.csv
 SklearnTutorials/mnist_train.csv
