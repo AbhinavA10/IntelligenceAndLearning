@@ -7,4 +7,6 @@ jupyter
 six
 wheel
 matplotlib
+scikit-learn
 opencv-contrib-python
+
