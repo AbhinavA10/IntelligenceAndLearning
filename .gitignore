@@ -5,3 +5,4 @@ TensorflowTutorials/MNIST_data/
 .ipynb_checkpoints/
 SklearnTutorials/mnist_test.csv
 SklearnTutorials/mnist_train.csv
+.vscode
